@@ -29,5 +29,11 @@ namespace WebApiDemo.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet(Name = "GetWeatherForecast")]
+        public IEnumerable<WeatherForecast> Get(string? test)
+        {
+            return test;
+        }
     }
 }
