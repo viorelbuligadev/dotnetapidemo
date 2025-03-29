@@ -9,7 +9,7 @@ namespace WebApiDemo.Controllers
         [HttpGet]
         public string Get(string name)
         {
-            return $"Hey, name!";
+            return $"Hey, {name}!";
         }
 
     }
